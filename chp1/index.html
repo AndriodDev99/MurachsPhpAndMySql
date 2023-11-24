@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Discount Calculator</title>
+<link rel="stylesheet" type="text/css" href="styles/main.css" />
+</head>
+
+<body>
+
+    <div id="content">
+        <h1>Product Discount Calculator</h1>
+        <form action="display_discount.php" method="post">
+            <div id="data">
+                <label>Product Description :</label>
+                <input type="text" name="productDescription" required /><br />
+
+                <label>List Price:</label>
+                <input type="text" name="listPrice" /><br />
+
+                <label>Discount Percentage</label>
+                <input type="text" name="discountPercentage" />
+            </div>
+            
+            <div id="buttons">
+                <label>&nbsp;</label>
+                <input type="submit" value="Calculate Discount"/><br/>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
